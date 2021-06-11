@@ -122,7 +122,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to={mp4} target="_blank" className="button button-primary button-wide-mobile button-sm" download="untitled.mp4">Прайслист</Link>
+                        <Link to={mp4} target="_blank" className="button button-primary button-wide-mobile button-sm" download="Conference.mp4">Прайслист</Link>
                       </li>
                     </ul>}
                 </div>
