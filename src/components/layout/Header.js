@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
-import pdf from '../../assets/docs/pricelist.pdf'
+import mp4 from '../../assets/docs/untitled.mp4'
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -122,7 +122,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to={pdf} target="_blank" className="button button-primary button-wide-mobile button-sm" download="pricelist.pdf">Прайслист</Link>
+                        <Link to={mp4} target="_blank" className="button button-primary button-wide-mobile button-sm" download="untitled.mp4">Прайслист</Link>
                       </li>
                     </ul>}
                 </div>
