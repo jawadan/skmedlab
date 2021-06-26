@@ -1,5 +1,5 @@
 import React from 'react';
-import Mailer from '../utils/Mailer';
+// import Mailer from '../utils/Mailer';
 
 function Newsletter() {
   return (
@@ -315,7 +315,7 @@ function Newsletter() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
 
               {/* CTA content */}
-              <Mailer />
+              {/* <Mailer /> */}
             </div>
 
           </div>
